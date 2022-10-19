@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css?family=Comfortaa%7CRighteous'); */
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background: url(https://savonfoodssupermarket.com/wp-content/uploads/2017/06/Backgroud-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font-family:'Bebas Neue', cursive;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-family: 'Comforter Brush', cursive;;
+  /* background: antiquewhite; */
+  margin:0;
+  margin-bottom: .5em;
+  padding: 1em;
+  text-align: center;
+}
+nav{
+  display: flex;
+}
+nav a{
+  flex-grow: 3 ;
+}
+a {
+  color: #4a5e26;
+  text-decoration: none;
+  /* text-shadow: 1px 1px 1px black; */
+  font-size: 1.5em;
+  padding: 5vh;
+  /* background: rgba(193, 235, 187, .9); */
+}
+
+a:hover {
+  color: #d9d8c2;
+}
+
+li {
+  list-style: none;
+  margin: 2vh;
+}
+
+li a {
+  color: #8D6011;
+}
+
+input[type=text] {
+  padding: .3em;
+  margin: 1em;
+}
+
+input[type=submit] {
+  padding: .3em;
+  color: #d9d8c2;
+  background: #4a5e26;
+  font-size: 1em;
+  border-radius: 10px;
+}
+p{
+  margin: auto;
+}
